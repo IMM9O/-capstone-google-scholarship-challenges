@@ -8,9 +8,6 @@
 }
 
 /* Genral rule */
-.img-responsive {
-  width: 100%;
-}
 .img-circle {
   border: 3px solid #fff;
   border-radius: 50%;
@@ -21,7 +18,10 @@
 
 .container {
   background: #3598db;
-  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .social-card {
