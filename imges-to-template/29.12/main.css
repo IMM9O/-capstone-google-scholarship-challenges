@@ -1,0 +1,114 @@
+body {
+  background: #f7f7f7;
+}
+
+.header {
+  height: 100px;
+  background: #fff;
+  -webkit-box-shadow: 0px 6px 1px 0px #ededed;
+  box-shadow: 0px 6px 1px 0px #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 30px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.header .logo {
+  height: 40px;
+  width: auto;
+}
+.header ul {
+  list-style: none;
+  font-weight: 600;
+}
+.header ul a {
+  text-decoration: none;
+  color: #a3a4a9;
+}
+.header ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+.header ul li.active a {
+  color: #29a8ff;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 15px 32px;
+  cursor: pointer;
+  max-width: 150px;
+  text-align: center;
+}
+.btn.solid {
+  background: #29a8ff;
+  color: #fff;
+}
+.btn.blank {
+  border: 2px solid #29a8ff;
+  color: #29a8ff;
+}
+
+.cards-container {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cards-container .card {
+  min-width: 300px;
+  max-width: 300px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  margin: 30px;
+}
+.cards-container .card .header-img {
+  position: relative;
+}
+.cards-container .card .header-img .character-img {
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+}
+.cards-container .card .header-img .character-img .person-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.cards-container .card .person {
+  margin: 60px 0;
+  text-align: center;
+}
+.cards-container .card .description {
+  color: #b7b7b7;
+}
+
+.spread {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+}
