@@ -1,0 +1,102 @@
+/* reset seaction */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Genral rule */
+body {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-size: 16px;
+}
+.image-responsive {
+  width: 100%;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.accent {
+  color: #de5629;
+}
+.clear {
+  flex: 1 1 auto;
+}
+.space {
+  margin: 5px;
+}
+.fa {
+  margin: 0 2px;
+}
+
+footer {
+  background: #323232;
+  min-height: 320px;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+}
+
+footer .desc {
+  margin: 60px auto;
+  text-align: center;
+}
+
+footer .contact {
+  display: flex;
+}
+
+footer .contact > div {
+  margin: 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+footer .contact > div .fa {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+
+/* Footer of footer */
+.footer {
+  position: absolute;
+  background: #eef0ee;
+  color: #b4aaab;
+  bottom: 0;
+  width: 100%;
+  min-height: 80px;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.footer .title {
+  font-size: 23px;
+  font-weight: bolder;
+  color: #333;
+  margin-right: 20px;
+}
+
+/* footer nav links  */
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  color: #de5629;
+  text-decoration: underline;
+}
