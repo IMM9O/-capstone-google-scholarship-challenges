@@ -1,0 +1,32 @@
+body {
+  background: #2b2b2b;
+  color: #333;
+  padding: 0 60px;
+}
+
+table {
+  margin: 30px auto;
+  width: 100%;
+  min-width: 800px;
+  border-spacing: 0;
+}
+table td,
+table th {
+  padding: 5px 10px;
+  text-align: left;
+}
+table th {
+  color: #fff;
+}
+table:nth-of-type(1) th {
+  background: #ea6053;
+}
+table:nth-of-type(2) th {
+  background: #4dae60;
+}
+table tr:nth-of-type(even) {
+  background: #eee;
+}
+table tr:nth-of-type(odd) {
+  background: #f6f6f6;
+}
