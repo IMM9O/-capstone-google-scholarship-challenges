@@ -16,3 +16,28 @@ for example, the final result can be like this
 Good luck guys
 
 # My Solution
+
+Here is my solution, First filter out odd/even numbers then sorted it into new array then lopping over even array with start index = 1 and iterator step += 2 and index with start point to 0 for odd number then in each iterator if index for odd number exeed the length of odd array so break the loop if not just add the odd number from the current index into even array using splice method, and after that loop just check if odd arr length greater that even number just push the rest to the even arry and finally return even array.
+
+
+```javascript
+function populatingContainers(arr) {
+    const even = arr.filter(res => !(res%2)).sort((p,c) => p > c);
+    const odd = arr.filter(res => res%2).sort((p,c) => p > c);
+    let index = 0;
+    for(let i = 1; i < even.length ; i+=2) {
+        if(index >= odd.length) break;
+        even.splice(i, 0, odd[index]);
+        index++;
+    }
+    if(odd.length > even.length) {
+        even.push(...odd.splice(index, odd.length-1));
+    }
+    return even; 
+}
+
+console.log(populatingContainers([5,27,22,34,24,12,7,3,9,13,17,23]));
+```
+
+
+
