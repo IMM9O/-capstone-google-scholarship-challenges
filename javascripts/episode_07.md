@@ -8,7 +8,8 @@ write a function that takes a a string as an argument represents your name that 
 ```
  "hello all my great friends";
 ```
-For example:
+
+**For example**
 ```
 check("karl"); // false
 check("sally"); // true

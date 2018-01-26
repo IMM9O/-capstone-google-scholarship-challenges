@@ -8,7 +8,7 @@ write a function that takes an **array of numbers** as arguments and returns **t
 * **true** if sum of two numbers in the array  results a number also represented in it
 * **false** if there is no two elements do this
 
-For example
+**For example**
 ```
 check([1,2,3]); // true as 1+2 =3
 check([5,4,6,8,3])  // true as 5+3 =8 all of them represented in the array

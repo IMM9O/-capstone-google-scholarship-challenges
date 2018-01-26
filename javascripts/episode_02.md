@@ -6,7 +6,7 @@ Complete **the findNextSquare method** that **finds the next integral perfect sq
 
 If the parameter is itself not a perfect square, then -1 should be returned. You may assume the parameter is positive.
 
-Examples:
+**For example**
 ```
 findNextSquare(4) --> returns 9
 findNextSquare(121) --> returns 144

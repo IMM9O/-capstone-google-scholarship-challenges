@@ -6,7 +6,7 @@ Now, the problem of the day
 
 Write a function that takes an **array of words** as an argument and returns a **string** represents every **middle** characters in **odd** number letters words
 
-For example:
+**For example**
 ```
 midChars(["Happy","New","Year","All","Friends"]); // pele
 ```

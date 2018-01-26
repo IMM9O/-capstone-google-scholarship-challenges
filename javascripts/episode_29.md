@@ -8,7 +8,7 @@ After i got many complaints about the difficulty of the problems, i should retur
 
 Write a function that takes an **array of numbers** as argument and returns a **number** respresents **multipe of sums** of every two next numbers in the array
 
-**Examples**
+**For example**
 ```
 multSum([1,2,3,4,5,6]); // 3 * 7 * 11= 231
 multSum([1,2,5]) //  3 * 5 = 15

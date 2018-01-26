@@ -8,8 +8,7 @@ Write a function that takes an array of two elements (numbers < 10) as argument,
 
 Really i have wrote tons of word "number" so it may be confusing, lets jump to examples
 
-**for example**
-
+**For example**
 ```
 randomNum([1,5]);  // 45132
 randomNum([5,1]);  // 31452

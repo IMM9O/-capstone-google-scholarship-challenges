@@ -4,7 +4,7 @@ Now the problem of the day!!!
 
 Write a function that takes an array as an argument and finds the smallest number divisible by all array elements
 
-For example
+**For example**
 ```
 smallestDivisible([1,2,4,9]); // 36
 ```

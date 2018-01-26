@@ -6,7 +6,7 @@ Now with the problem of the day!!
 
 Write a function that takes a string as an argument and return another string exactly as examples below
 
-**please:** check the examples very well.
+**For example**
 ```
 letterManip("abcd");    // "A-Bb-Ccc-Dddd"
 letterManip("HeLlo"); // "H-Ee-Lll-Llll-Ooooo"

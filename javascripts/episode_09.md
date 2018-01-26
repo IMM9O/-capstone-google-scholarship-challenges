@@ -6,7 +6,8 @@ We have number of containers, every container contains a number of oranges, this
 
 Write a function that populates the containers in ascending pattern depending on the number of oranges taking in consideration the type of this number even or odd.
 
-for example, the final result can be like this
+**For example**
+The final result can be like this
 
 ```
 [0,3,12,7,22,13,28,17,42,53,50,54,72,76]

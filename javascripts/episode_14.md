@@ -6,6 +6,7 @@ Now the problem of the day
 
 Write a function that takes a **string** as an argument and returns another **string** exactly like the examples below
 
+**For example**
 ```
 strManip("abcd")    // AbAc-BcBd-CdC-DD
 strManip("hello")  // HeHl-ElEl-LlLo-LoL-OO

@@ -6,8 +6,7 @@ Now with the problem of the day!!!!
 
 Write a function that takes an array of numbers as argument and returns a number represent the sum of the two largest numbers in it.
 
-**Examples**:
-
+**For example**
 ```
 sum([5,12,4,2,36]); // 48
 sum([60,70,80,90,100,200] ); //300

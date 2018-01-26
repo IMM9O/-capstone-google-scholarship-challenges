@@ -5,7 +5,7 @@ Now with the  problem of the day!!!
 
 Write a function that takes **an array as a parameter** and **return string** that represents two words, one represent evey first character in every word in array and the second represent every last characters in array words concatenated together with is in between
 
-For example
+**For example**
 ["Umbrella","drum", "aka",  "cartz", "ini", "toon", "young"];
 
 **Output**: Udacity is amazing.
