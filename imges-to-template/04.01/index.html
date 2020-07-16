@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .gallery-products {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 720px;
+      }
+
+      .gallery-products-item {
+        width: 240px;
+        height: 240px;
+        position: relative;
+      }
+      .gallery-products-item > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 120px;
+      }
+
+      .gallery-products-item:nth-child(1) {
+        background: #ff6348;
+      }
+      .gallery-products-item:nth-child(2) {
+        background: #5352ed;
+      }
+      .gallery-products-item:nth-child(3) {
+        background: #ff6b81;
+      }
+      .gallery-products-item:nth-child(4) {
+        background: #2f3542;
+      }
+      .gallery-products-item:nth-child(5) {
+        background: #2ed573;
+      }
+      .gallery-products-item:nth-child(6) {
+        background: #eccc68;
+      }
+
+      .gallery-products-title {
+        font-size: 3em;
+        margin-bottom: 0.2em;
+        font-weight: 700;
+        margin-top: auto;
+      }
+
+      .gallery-products-cover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        z-index: 10;
+        padding: 25px;
+        background: linear-gradient(
+          rgba(56, 67, 77, 0.45),
+          rgba(56, 67, 77, 0.45)
+        );
+      }
+      .gallery-products-desc {
+        text-align: center;
+      }
+
+      .gallery-products-plus {
+        font-size: 3em;
+        font-weight: 700;
+        position: relative;
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery-products">
+      <div class="gallery-products-item">
+        <img
+          src="http://pngimg.com/uploads/coffee_jar/coffee_jar_PNG17092.png"
+          alt=""
+        />
+        <div class="gallery-products-cover">
+          <div class="gallery-products-title">Lorem</div>
+          <div class="gallery-products-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+          <div class="gallery-products-plus">+</div>
+        </div>
+      </div>
+      <div class="gallery-products-item">
+        <img src="http://pngimg.com/uploads/honey/honey_PNG86355.png" alt="" />
+        <div class="gallery-products-cover">
+          <div class="gallery-products-title">Lorem</div>
+          <div class="gallery-products-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+          <div class="gallery-products-plus">+</div>
+        </div>
+      </div>
+      <div class="gallery-products-item">
+        <img src="http://pngimg.com/uploads/milk/milk_PNG12758.png" alt="" />
+        <div class="gallery-products-cover">
+          <div class="gallery-products-title">Lorem</div>
+          <div class="gallery-products-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+          <div class="gallery-products-plus">+</div>
+        </div>
+      </div>
+      <div class="gallery-products-item">
+        <img
+          src="http://pngimg.com/uploads/mayonnaise/mayonnaise_PNG86.png"
+          alt=""
+        />
+        <div class="gallery-products-cover">
+          <div class="gallery-products-title">Lorem</div>
+          <div class="gallery-products-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+          <div class="gallery-products-plus">+</div>
+        </div>
+      </div>
+      <div class="gallery-products-item">
+        <img
+          src="http://pngimg.com/uploads/cappuccino/cappuccino_PNG71.png"
+          alt=""
+        />
+        <div class="gallery-products-cover">
+          <div class="gallery-products-title">Lorem</div>
+          <div class="gallery-products-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+          <div class="gallery-products-plus">+</div>
+        </div>
+      </div>
+      <div class="gallery-products-item">
+        <img src="http://pngimg.com/uploads/muffin/muffin_PNG198.png" alt="" />
+        <div class="gallery-products-cover">
+          <div class="gallery-products-title">Lorem</div>
+          <div class="gallery-products-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+          <div class="gallery-products-plus">+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
